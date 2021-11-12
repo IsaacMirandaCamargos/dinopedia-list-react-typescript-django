@@ -133,12 +133,9 @@ MIDDLEWARE = [
 ## Carregando dados da api no frontend
 
 - Instale o axios e crie o serviço de api
-- Adicione o "proxy" em _package.json_ com valores:
+- Adicione o "proxy" em _package.json_ o valor:
 ```
-[
-    "http://localhost:8000", "http://127.0.0.1:8000",
-    "http://localhost:3000", "http://127.0.0.1:3000"
-]
+"http://127.0.0.1:8000"
 ```
 - Edite o componente DinosaurItem para receber valores dinâmicos
 - Edite o componente DinosaurList para carregar valores da api
